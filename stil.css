@@ -14,20 +14,25 @@ body{
     border: 2px solid black;
 }
 header{
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
+    margin-top: 2%;;
 }
 .screen{
-    background-color: whitesmoke;
-    width: 40%;
+    background-color: wheat;
+    width: 20%;
     margin-top: 5%;
-    height: 30%;
     display: flex;
-    margin-left: 1%;
+    margin-left: 10%;
+    padding-right: 2%;
+    border-radius: 12px;
     padding-left: 58%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
+    color: black;
 }
 .keys{
     display: flex;
@@ -38,14 +43,13 @@ header{
     margin: 1%;
     height: 100%;
     justify-content: center;
-    border: 2px solid wheat;
 }
 #key{
     border: 2px solid wheat;
     background-color: orange;
     border-radius: 100%;
-    width: 10%;
-    height: 3%;
+    width: 15%;
+    height: auto;
     margin: 2%;
     color: black;
     text-align: center;
@@ -54,7 +58,7 @@ header{
     border: 2px solid wheat;
     background-color: orange;
     border-radius: 20%;
-    width: 26%;
+    width: 33.5%;
     height: auto;
     margin: 2%;
     color: black;
